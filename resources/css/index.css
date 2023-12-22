@@ -1,0 +1,324 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+a {
+    color: #00F;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    color: #F00;
+}
+
+h1 {
+    margin-left: 28px;
+}
+
+.colors {
+    padding: 0 25px 19px;
+    border: 1px solid #000;
+    margin: auto 26px;
+    font-family: 'Space Grotesk';
+}
+
+.colors h2 {
+    text-align: center;
+    font-size: 36px;
+    margin: 12px auto 0;
+}
+
+.colors .color {
+    margin: 10px;
+    display: inline-block;
+    width: 348px;
+    margin: 12px 22px;
+}
+
+.colors .color h3 {
+    text-align: center;
+}
+
+.colors .color div {
+    width: 236px;
+    height: 50px;
+    box-shadow: 1px 2px 5px #000;
+    border: none;
+    margin: 12px auto;
+}
+
+.color p {
+    margin: 0;
+    padding: 16px 0;
+    text-align: center;
+}
+
+.blue {
+    color: #FFF;
+    background-color: #00F;
+}
+
+.green {
+    color: #FFF;
+    background-color: #008000;
+}
+
+.red {
+    color: #FFF;
+    background-color: #F00;
+}
+
+.purple {
+    color: #FFF;
+    background-color: #800080;
+}
+
+.pink {
+    color: #555;
+    background-color: #FFC0CB;
+}
+
+.gray {
+    color: #FFF;
+    background-color: #808080;
+}
+
+.blue1 {
+    background-color: #3463A0;
+}
+
+.blue2 {
+    background-color: #4D80C9;
+}
+
+.blue3 {
+    background-color: #6FA2E1;
+}
+
+.blue4 {
+    background-color: #93C4F8;
+}
+
+.green1 {
+    background-color: #4B9A5A;
+}
+
+.green2 {
+    background-color: #6AC77A;
+}
+
+.green3 {
+    background-color: #8BEB9A;
+}
+
+.green4 {
+    background-color: #ADFEB9;
+}
+
+.red1 {
+    background-color: #E64C4C;
+}
+
+.red2 {
+    background-color: #FF6F6F;
+}
+
+.red3 {
+    background-color: #FF9999;
+}
+
+.red4 {
+    background-color: #FFC3C3;
+}
+
+.purple1 {
+    background-color: #8246A6;
+}
+
+.purple2 {
+    background-color: #A26FD2;
+}
+
+.purple3 {
+    background-color: #C29FD8;
+}
+
+.purple4 {
+    background-color: #E3D1F0;
+}
+
+.pink1 {
+    background-color: #F18AA5;
+}
+
+.pink2 {
+    background-color: #FFAFC5;
+}
+
+.pink3 {
+    background-color: #FFC9D2;
+}
+
+.pink4 {
+    background-color: #FFE3E8;
+}
+
+.gray1 {
+    background-color: #6C757D;
+}
+
+.gray2 {
+    background-color: #A0AEC0;
+}
+
+.gray3 {
+    background-color: #C2CCD8;
+}
+
+.gray4 {
+    background-color: #E0E6F0;
+}
+
+.fonts {
+    border: 1px solid #000;
+    margin: 42px 36px 12px;
+    padding: 0 24px;
+}
+
+.fonts h2 {
+    font-size: 32px;
+}
+
+.fontShowcase {
+    display: inline-block;
+    width: 500px;
+    padding-right: 100px;
+}
+
+.font {
+    font-size: 22px;
+}
+
+.sans-serif {
+    font-family: sans-serif;
+}
+
+.ubuntu {
+    font-family: ubuntu;
+}
+
+.montserrat {
+    font-family: montserrat;
+}
+
+.lato {
+    font-family: lato;
+}
+
+.regular {
+    font-style: normal;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.underlined {
+    text-decoration: underline;
+}
+
+.textStyle {
+    border: 1px solid #000;
+    margin: 57px;
+}
+
+.textStyle h2.h2 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.textStyle div {
+    margin-bottom: 30px;
+}
+
+.h1 h1 {
+    font-family: Montserrat;
+    font-weight: 700;
+    line-height: 1.8;
+    margin-left: 48px;
+}
+
+.textStyle li {
+    font-size: 22px;
+    line-height: 1.4;
+}
+
+.h2 h2 {
+    font-family: Lato;
+    line-height: 1.4;
+    margin-left: 36px;
+}
+
+.buttons {
+    background-color: #A0AEC0;
+    padding: 24px;
+}
+
+.buttons h2 {
+    text-align: center;
+}
+
+button {
+    width: 228px;
+    height: 48px;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+button.button1 {
+    background-color: #3463A0;
+    color: #E0E6F0;
+    box-shadow: 2px 2px #000;
+}
+
+button.button1:hover {
+    background-color: #4D80C950;
+    color: #111;
+}
+
+button.button1:active {
+    background-color: #6C757D;
+    color: #E0E6F0;;
+    box-shadow: 0 0;
+    font-size: 24px;
+    margin-top: 5px;
+    margin-left: 7px;
+}
+
+button.button2 {
+    background-color: #8BEB9A;
+    border: none;
+    box-shadow: 0.5px 1px 12px #000;
+}
+
+button.button2:hover {
+    border: .3px solid #000;
+    box-shadow: 1px 3px 15px #000;
+    background-color: #ADFEB9;
+    font-weight: 600;
+}   
+
+button.button2:active {
+    border: 3px solid #FFF;
+    box-shadow: none;
+    color: #FFF;
+    background-color: #6AC77A;
+}
