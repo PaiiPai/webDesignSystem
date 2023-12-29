@@ -322,3 +322,16 @@ button.button2:active {
     color: #FFF;
     background-color: #6AC77A;
 }
+
+.code {
+    display: block;
+    text-align: left;
+    font-weight: normal;
+    background-color: rgb(33, 30, 47);
+    color: rgb(147, 149, 152);
+    font-family: Monaco, Menlo, Ubuntu, monospace;
+    font-size: 0.875rem;
+    padding: 1rem 2rem 1rem 1rem;
+    overflow-wrap: break-word;
+    white-space: pre-wrap;
+    -webkit-font-smoothing: antialiased;
